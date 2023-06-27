@@ -4,9 +4,103 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="logo.jpg" />
     <title>Sign-up Form</title>
   </head>
   <body>
+    <div class="main-container">
+      <div class="logo-container">
+        <a href="index.html"
+          ><img width="100px" class="logo" src="logo.jpg" alt="the-site-logo"
+        /></a>
+      </div>
+      <div class="content-container">
+        <section class="section-1">
+          <div class="background-image-container">
+            <img
+              width="400px"
+              class="background-image"
+              src="Login-pana.svg"
+              alt="background-image"
+            />
+          </div>
+          <p class="background-text">Sign up today to get exciting offers..!</p>
+        </section>
+
+        <section class="section-2">
+          <div class="section-2-heading"><h1>Get Started</h1></div>
+          <form action="POST">
+            <div>
+              <label for="firstname">FIRST NAME</label>
+              <input
+                id="firstname"
+                type="text"
+                name="firstname"
+                placeholder="FIRST NAME"
+                required
+              />
+            </div>
+            <div>
+              <label for="lastname">LAST NAME</label>
+              <input
+                id="lastname"
+                type="text"
+                name="lastname"
+                placeholder="LAST NAME"
+                required
+              />
+            </div>
+            <div>
+              <label for="email">EMAIL</label>
+              <input
+                id="email"
+                type="email"
+                name="email"
+                placeholder="EMAIL"
+                required
+              />
+            </div>
+            <div>
+              <label for="phone">PHONE</label>
+              <input
+                id="phone"
+                type="tel"
+                name="phone"
+                placeholder="PHONE"
+                required
+              />
+            </div>
+            <div>
+              <label for="password">PASSWORD</label>
+              <input
+                id="password"
+                type="text"
+                name="password"
+                placeholder="PASSWORD"
+                required
+              />
+            </div>
+            <div>
+              <label for="confirm-password">CONFIRM PASSWORD</label>
+              <input
+                id="confirm-password"
+                type="text"
+                name="confirm-password"
+                placeholder="CONFIRM PASSWORD"
+                required
+              />
+            </div>
+            <div>
+              <button>Create Account</button>
+            </div>
+          </form>
+          <div class="already-have-account">
+            Already have an account..? <a href="index.html">LOG IN</a>
+          </div>
+        </section>
+      </div>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>

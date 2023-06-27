@@ -1,3 +1,23 @@
-* {
-  background-color: bisque;
+body {
+  background-image: url('background-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-container {
+  display: flex;
+}
+.content-container {
+  display: flex;
+  width: 95vw;
+}
+.logo-container {
+  width: 5vw;
+}
+.section-1 {
+  width: 50%;
+  text-align: center;
+}
+.section-2 {
+  width: 50%;
 }
