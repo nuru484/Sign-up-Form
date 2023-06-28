@@ -3,22 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="logo.jpg" />
     <title>Sign-up Form</title>
   </head>
   <body>
     <div class="main-container">
-      <div class="logo-container">
-        <a href="index.html"
-          ><img width="100px" class="logo" src="logo.jpg" alt="the-site-logo"
-        /></a>
-      </div>
       <div class="content-container">
         <section class="section-1">
           <div class="background-image-container">
             <img
-              width="400px"
               class="background-image"
               src="Login-pana.svg"
               alt="background-image"
@@ -31,27 +29,19 @@
           <div class="section-2-heading"><h1>Get Started</h1></div>
           <form action="POST">
             <div>
-              <label for="firstname">FIRST NAME</label>
+              <label for="fullname">FULL NAME</label>
+              <i class="fas fa-user"></i>
               <input
-                id="firstname"
+                id="fullname"
                 type="text"
-                name="firstname"
-                placeholder="FIRST NAME"
-                required
-              />
-            </div>
-            <div>
-              <label for="lastname">LAST NAME</label>
-              <input
-                id="lastname"
-                type="text"
-                name="lastname"
-                placeholder="LAST NAME"
+                name="fullname"
+                placeholder="FULL NAME"
                 required
               />
             </div>
             <div>
               <label for="email">EMAIL</label>
+              <i class="far fa-envelope"></i>
               <input
                 id="email"
                 type="email"
@@ -62,6 +52,7 @@
             </div>
             <div>
               <label for="phone">PHONE</label>
+              <i class="fas fa-phone"></i>
               <input
                 id="phone"
                 type="tel"
@@ -72,6 +63,7 @@
             </div>
             <div>
               <label for="password">PASSWORD</label>
+              <i class="fas fa-lock"></i>
               <input
                 id="password"
                 type="text"
@@ -82,6 +74,7 @@
             </div>
             <div>
               <label for="confirm-password">CONFIRM PASSWORD</label>
+              <i class="fas fa-lock"></i>
               <input
                 id="confirm-password"
                 type="text"
@@ -91,7 +84,7 @@
               />
             </div>
             <div>
-              <button>Create Account</button>
+              <button type="submit">Create Account</button>
             </div>
           </form>
           <div class="already-have-account">
