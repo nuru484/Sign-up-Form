@@ -7,6 +7,13 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="logo.jpg" />
     <title>Sign-up Form</title>
@@ -26,7 +33,7 @@
         </section>
 
         <section class="section-2">
-          <div class="section-2-heading"><h1>Get Started</h1></div>
+          <div class="section-2-heading"><h1>Sign Up</h1></div>
           <form action="POST">
             <div>
               <label for="fullname">FULL NAME</label>
@@ -47,6 +54,7 @@
                 type="email"
                 name="email"
                 placeholder="EMAIL"
+                autocomplete="email"
                 required
               />
             </div>
@@ -58,6 +66,7 @@
                 type="tel"
                 name="phone"
                 placeholder="PHONE"
+                autocomplete="tel"
                 required
               />
             </div>
@@ -66,10 +75,11 @@
               <i class="fas fa-lock"></i>
               <input
                 id="password"
-                type="text"
+                type="password"
                 name="password"
                 placeholder="PASSWORD"
                 required
+                pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*\W)[a-zA-Z\d\W]{8,}$"
               />
             </div>
             <div>
@@ -77,9 +87,10 @@
               <i class="fas fa-lock"></i>
               <input
                 id="confirm-password"
-                type="text"
+                type="password"
                 name="confirm-password"
                 placeholder="CONFIRM PASSWORD"
+                pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*\W)[a-zA-Z\d\W]{8,}$"
                 required
               />
             </div>
@@ -88,12 +99,10 @@
             </div>
           </form>
           <div class="already-have-account">
-            Already have an account..? <a href="index.html">LOG IN</a>
+            Already have an account..? <a href="index.html"> <b>LOG IN</b></a>
           </div>
         </section>
       </div>
     </div>
-
-    <script src="script.js"></script>
   </body>
 </html>
