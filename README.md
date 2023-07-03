@@ -93,7 +93,7 @@ The project:
 ## Acknowledgments
 
 - Inspiration by [The Odin Project](https://www.theodinproject.com/)
-- Background image by [Freepik] (https://www.freepik.com/free-vector/blue-curve-background_16282276.htm#&position=16&from_view=popular) .
-- Illustrative vectors was provided by [Storyset] (https://storyset.com/) .
+- Background image by [Freepik](https://www.freepik.com/free-vector/blue-curve-background_16282276.htm#&position=16&from_view=popular)
+- Illustrative vectors was provided by [Storyset](https://storyset.com/)
 
 Big thanks to myself for not giving up on this journey, I shall get there someday, Insha Allah.
