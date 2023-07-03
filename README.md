@@ -37,7 +37,7 @@ The project:
 
 ![](screenshot.png)
 
-<div style="text-align: center;">
+<div align="center">
   <img src="screenshot-mobile.png" alt="Image" width="300">
 </div>
 
