@@ -36,7 +36,10 @@ The project:
 ### Screenshot
 
 ![](screenshot.png)
-<img src="screenshot-mobile.png" alt="Image" width="300" text-align='center'>
+
+<div style="text-align: center;">
+  <img src="screenshot-mobile.png" alt="Image" width="300">
+</div>
 
 ### Links
 
