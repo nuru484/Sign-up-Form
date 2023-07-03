@@ -36,7 +36,8 @@ The project:
 ### Screenshot
 
 ![](screenshot.png)
-![](screenshot-mobile.png)
+<img u>
+![](screenshot-mobile.png | width=100)
 
 ### Links
 
