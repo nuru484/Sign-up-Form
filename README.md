@@ -36,7 +36,7 @@ The project:
 ### Screenshot
 
 ![](screenshot.png)
-<img src="screenshot-mobile.png" alt="Image" width="100">
+<img src="screenshot-mobile.png" alt="Image" width="300">
 
 ### Links
 
